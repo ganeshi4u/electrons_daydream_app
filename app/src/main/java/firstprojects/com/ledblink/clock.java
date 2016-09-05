@@ -1,17 +1,9 @@
 package firstprojects.com.ledblink;
 
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.service.dreams.DreamService;
-import android.graphics.Color;
-import android.graphics.Typeface;
-import android.view.ViewGroup;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
-import android.widget.TextView;
-
-import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
-import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
-
-import firstprojects.com.ledblink.R;
+import firstprojects.com.ledblink.widget.ChildAnimatingLayout;
 
 /**
  * Created by ganesh on 04-09-2016.
@@ -23,6 +15,16 @@ public class clock extends DreamService {
         setFullscreen(true);
         setScreenBright(false);
         setContentView(R.layout.clock);
+        setInteractive(false);
+
+        ChildAnimatingLayout animatingLayout = (ChildAnimatingLayout) findViewById(R.id.animating_layout);
+
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        setScreenBright(preferences.getBoolean(DefaultPreferenceFragment.KEY_NORMAL_BRIGHTNESS_MODE, false));
+
+        boolean nightMode = preferences.getBoolean(DefaultPreferenceFragment.KEY_NIGHT_MODE, true);
+        //In night mode decrease alpha to 0.3
+        animatingLayout.setAlpha(nightMode ? 0.3f : 1.0f);
     }
 
 }

@@ -5,7 +5,6 @@ import android.preference.PreferenceManager;
 import android.service.dreams.DreamService;
 
 import firstprojects.com.ledblink.widget.ChildAnimatingLayout;
-import firstprojects.com.ledblink.widget.ViewAnimatorProviderFactory;
 
 /**
  * Created by ganesh on 05-09-2016.
@@ -20,7 +19,6 @@ public class pulse extends DreamService {
         setInteractive(false);
 
         ChildAnimatingLayout animatingLayout = (ChildAnimatingLayout) findViewById(R.id.animating_layout);
-        animatingLayout.setViewAnimationProvider(ViewAnimatorProviderFactory.getViewAnimatorProvider(this));
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
         setScreenBright(preferences.getBoolean(DefaultPreferenceFragment.KEY_NORMAL_BRIGHTNESS_MODE, false));
