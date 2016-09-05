@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <firstprojects.com.ledblink.widget.ChildAnimatingLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/animating_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <firstprojects.com.ledblink.Jumper3
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <blink
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" >
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/shape" />
+            </blink>
+        </firstprojects.com.ledblink.Jumper3>
+
+
+        <firstprojects.com.ledblink.Jumper3
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/shape" />
+        </firstprojects.com.ledblink.Jumper3>
+
+        <firstprojects.com.ledblink.Jumper3
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/shape" />
+        </firstprojects.com.ledblink.Jumper3>
+
+        <firstprojects.com.ledblink.Jumper3
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/shape" />
+
+        </firstprojects.com.ledblink.Jumper3>
+
+        <firstprojects.com.ledblink.Jumper3
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/shape" />
+
+        </firstprojects.com.ledblink.Jumper3>
+
+    <firstprojects.com.ledblink.Jumper3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/shape" />
+
+    </firstprojects.com.ledblink.Jumper3>
+
+    <firstprojects.com.ledblink.Jumper3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/shape" />
+
+    </firstprojects.com.ledblink.Jumper3>
+
+    <firstprojects.com.ledblink.Jumper3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/shape" />
+
+    </firstprojects.com.ledblink.Jumper3>
+
+    <firstprojects.com.ledblink.Jumper3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/shape" />
+
+    </firstprojects.com.ledblink.Jumper3>
+
+    <firstprojects.com.ledblink.Jumper3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/shape" />
+
+    </firstprojects.com.ledblink.Jumper3>
+
+    <firstprojects.com.ledblink.Jumper3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/shape" />
+
+    </firstprojects.com.ledblink.Jumper3>
+
+    <firstprojects.com.ledblink.Jumper3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/shape" />
+
+    </firstprojects.com.ledblink.Jumper3>
+
+    <firstprojects.com.ledblink.Jumper3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/shape" />
+
+    </firstprojects.com.ledblink.Jumper3>
+
+    <firstprojects.com.ledblink.Jumper3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/shape" />
+
+    </firstprojects.com.ledblink.Jumper3>
+
+    <firstprojects.com.ledblink.Jumper3
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="bottom|center"
+            android:background="@drawable/shape" />
+
+    </firstprojects.com.ledblink.Jumper3>
+    </firstprojects.com.ledblink.widget.ChildAnimatingLayout>
+
+
+</FrameLayout>
